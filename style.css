@@ -80,7 +80,7 @@
   .controls-right {
     flex: 1;
     display: flex;
-    /* overflow: hidden; */
+    overflow: hidden;
     position: relative;
     top: 40px;
   }
@@ -221,7 +221,7 @@
   @media screen and (max-width: 600px) {
     .player {
         min-width: 0;
-        max-width: 95vw
+        max-width: 95vw;
     }
     .fas {
         font-size: 20px;
@@ -254,7 +254,7 @@
     }
 
     .speed,
-    time {
+    .time {
         top: 3px;
     }
 
